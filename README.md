@@ -54,9 +54,11 @@ npm install
 npm run dev
 ```
 
-### .env Configuration
+---
 
-```env
+## 🔐 .env Configuration (Backend)
+
+```bash
 SECRET_KEY=your_secret_key
 MYSQL_USER=root
 MYSQL_PASSWORD=your_password
@@ -64,9 +66,11 @@ MYSQL_HOST=localhost
 MYSQL_DB=formpilot
 
 # Optional default SMTP fallback (for testing)
-SMTP_HOST=smtp.gmail.com
+SMTP_HOST=smtp.yourhost.com
 SMTP_PORT=587
 ```
+
+---
 
 ## 🧪 Coming Soon
 
@@ -76,12 +80,14 @@ SMTP_PORT=587
 - Embeddable script snippet
 - Optional email fallback via Resend/Postmark
 
+---
+
 ## 💡 Inspiration
 
 Built to solve the problem of receiving form submissions without relying on external services like Formspree, Typeform, or email APIs. Perfect for freelancers, creators, or developers looking for a quick solution that they control.
 
-## 🛫 Ready to fly?
+---
 
-Start building forms, drop them anywhere, and let FormPilot handle the delivery. ✉️
+## 📜 License
 
 MIT License
